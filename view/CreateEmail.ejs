@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Account Verification</title>
+  </head>
+  <body>
+    <div
+      style="
+        width: 100%;
+        height: 95vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      "
+    >
+      <div
+        style="
+          width: 200px;
+          height: 200px;
+          background-color: bisque;
+          padding: 10px;
+        "
+      >
+        <div>Hi, <%- name %></div>
+        <br />
+        <br />
+        <br />
+        <div>welcome admin click the link below to verify</div>
+        <br />
+        <br />
+        <div
+          style="display: flex; justify-content: center; align-items: center"
+        >
+          <a href="<%- url %>" style="padding: 10px 14px; border-radius: 8px">
+            verify
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
